@@ -1,0 +1,62 @@
+
+
+nav{
+    margin-bottom: 5%;
+}
+
+#perantInput{
+    /* border: 1px solid red; */
+    padding: 20px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+#perantInput h1{
+    font-size: 5em;
+}
+#perantInput input{
+width: 50%;
+border-radius: 20px;
+background-color: var(--bg2);
+border: none;
+color: white;
+font-size: 1.5em;
+padding: 10px 50px;
+}
+
+#perantInput input::placeholder{
+    color: white;
+}
+
+#perantInput button{
+width: 20%;
+border-radius: 20px;
+background-color: var(--bg4);
+border: none;
+color: white;
+font-size: 1.7em;
+padding: 5px;
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        /* background-color: red; */
+    }
+
+    #perantInput input{
+        width: 90%;
+        font-size: 1.2em;
+        padding: 8px 20px;
+        }
+        
+        #perantInput button{
+        width: 50%;
+        font-size: 1.3em;
+        padding: 2px;
+        }
+}
